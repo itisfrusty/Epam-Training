@@ -1,0 +1,13 @@
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.csprojAssemblyReference.cache
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.AssemblyInfoInputs.cache
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.AssemblyInfo.cs
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.csproj.CoreCompileInputs.cache
+C:\Users\с\source\repos\lab_1_AND_loop\bin\Debug\netcoreapp3.1\lab_1_A_loop.exe
+C:\Users\с\source\repos\lab_1_AND_loop\bin\Debug\netcoreapp3.1\lab_1_A_loop.deps.json
+C:\Users\с\source\repos\lab_1_AND_loop\bin\Debug\netcoreapp3.1\lab_1_A_loop.runtimeconfig.json
+C:\Users\с\source\repos\lab_1_AND_loop\bin\Debug\netcoreapp3.1\lab_1_A_loop.runtimeconfig.dev.json
+C:\Users\с\source\repos\lab_1_AND_loop\bin\Debug\netcoreapp3.1\lab_1_A_loop.dll
+C:\Users\с\source\repos\lab_1_AND_loop\bin\Debug\netcoreapp3.1\lab_1_A_loop.pdb
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.dll
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.pdb
+C:\Users\с\source\repos\lab_1_AND_loop\obj\Debug\netcoreapp3.1\lab_1_A_loop.genruntimeconfig.cache
