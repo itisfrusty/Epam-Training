@@ -1,0 +1,13 @@
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.csprojAssemblyReference.cache
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.AssemblyInfoInputs.cache
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.AssemblyInfo.cs
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.csproj.CoreCompileInputs.cache
+C:\git\lab_1_I_loop\lab_1_I_loop\bin\Debug\netcoreapp3.1\lab_1_I_loop.exe
+C:\git\lab_1_I_loop\lab_1_I_loop\bin\Debug\netcoreapp3.1\lab_1_I_loop.deps.json
+C:\git\lab_1_I_loop\lab_1_I_loop\bin\Debug\netcoreapp3.1\lab_1_I_loop.runtimeconfig.json
+C:\git\lab_1_I_loop\lab_1_I_loop\bin\Debug\netcoreapp3.1\lab_1_I_loop.runtimeconfig.dev.json
+C:\git\lab_1_I_loop\lab_1_I_loop\bin\Debug\netcoreapp3.1\lab_1_I_loop.dll
+C:\git\lab_1_I_loop\lab_1_I_loop\bin\Debug\netcoreapp3.1\lab_1_I_loop.pdb
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.dll
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.pdb
+C:\git\lab_1_I_loop\lab_1_I_loop\obj\Debug\netcoreapp3.1\lab_1_I_loop.genruntimeconfig.cache

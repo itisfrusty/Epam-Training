@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_1_KMV_loop", "lab_1_KMV_loop.csproj", "{1BFA7E76-9759-44BD-B5E8-17AE7E73F3AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BFA7E76-9759-44BD-B5E8-17AE7E73F3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFA7E76-9759-44BD-B5E8-17AE7E73F3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFA7E76-9759-44BD-B5E8-17AE7E73F3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFA7E76-9759-44BD-B5E8-17AE7E73F3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB3BE60-918A-49A9-AFCB-23F184702A95}
+	EndGlobalSection
+EndGlobal

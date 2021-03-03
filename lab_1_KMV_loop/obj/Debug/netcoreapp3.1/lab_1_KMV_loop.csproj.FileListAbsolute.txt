@@ -1,0 +1,13 @@
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.csprojAssemblyReference.cache
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.AssemblyInfoInputs.cache
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.AssemblyInfo.cs
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.csproj.CoreCompileInputs.cache
+C:\git\lab_1_KMV_loop\bin\Debug\netcoreapp3.1\lab_1_KMV_loop.exe
+C:\git\lab_1_KMV_loop\bin\Debug\netcoreapp3.1\lab_1_KMV_loop.deps.json
+C:\git\lab_1_KMV_loop\bin\Debug\netcoreapp3.1\lab_1_KMV_loop.runtimeconfig.json
+C:\git\lab_1_KMV_loop\bin\Debug\netcoreapp3.1\lab_1_KMV_loop.runtimeconfig.dev.json
+C:\git\lab_1_KMV_loop\bin\Debug\netcoreapp3.1\lab_1_KMV_loop.dll
+C:\git\lab_1_KMV_loop\bin\Debug\netcoreapp3.1\lab_1_KMV_loop.pdb
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.dll
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.pdb
+C:\git\lab_1_KMV_loop\obj\Debug\netcoreapp3.1\lab_1_KMV_loop.genruntimeconfig.cache
