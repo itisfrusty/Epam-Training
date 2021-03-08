@@ -1,0 +1,16 @@
+C:\git\lab_2_vectors\bin\Debug\net5.0\lab_2_vectors.exe
+C:\git\lab_2_vectors\bin\Debug\net5.0\lab_2_vectors.deps.json
+C:\git\lab_2_vectors\bin\Debug\net5.0\lab_2_vectors.runtimeconfig.json
+C:\git\lab_2_vectors\bin\Debug\net5.0\lab_2_vectors.runtimeconfig.dev.json
+C:\git\lab_2_vectors\bin\Debug\net5.0\lab_2_vectors.dll
+C:\git\lab_2_vectors\bin\Debug\net5.0\ref\lab_2_vectors.dll
+C:\git\lab_2_vectors\bin\Debug\net5.0\lab_2_vectors.pdb
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.csprojAssemblyReference.cache
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.AssemblyInfoInputs.cache
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.AssemblyInfo.cs
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.csproj.CoreCompileInputs.cache
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.dll
+C:\git\lab_2_vectors\obj\Debug\net5.0\ref\lab_2_vectors.dll
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.pdb
+C:\git\lab_2_vectors\obj\Debug\net5.0\lab_2_vectors.genruntimeconfig.cache

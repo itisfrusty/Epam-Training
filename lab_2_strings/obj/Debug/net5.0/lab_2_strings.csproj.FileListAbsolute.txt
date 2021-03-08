@@ -1,0 +1,16 @@
+C:\git\lab_2_strings\bin\Debug\net5.0\lab_2_strings.exe
+C:\git\lab_2_strings\bin\Debug\net5.0\lab_2_strings.deps.json
+C:\git\lab_2_strings\bin\Debug\net5.0\lab_2_strings.runtimeconfig.json
+C:\git\lab_2_strings\bin\Debug\net5.0\lab_2_strings.runtimeconfig.dev.json
+C:\git\lab_2_strings\bin\Debug\net5.0\lab_2_strings.dll
+C:\git\lab_2_strings\bin\Debug\net5.0\ref\lab_2_strings.dll
+C:\git\lab_2_strings\bin\Debug\net5.0\lab_2_strings.pdb
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.csprojAssemblyReference.cache
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.AssemblyInfoInputs.cache
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.AssemblyInfo.cs
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.csproj.CoreCompileInputs.cache
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.dll
+C:\git\lab_2_strings\obj\Debug\net5.0\ref\lab_2_strings.dll
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.pdb
+C:\git\lab_2_strings\obj\Debug\net5.0\lab_2_strings.genruntimeconfig.cache
