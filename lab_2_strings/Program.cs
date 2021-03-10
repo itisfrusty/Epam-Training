@@ -9,7 +9,6 @@ namespace lab_2_strings
         static void Main(string[] args)
             {
             StreamReader infile = new StreamReader(@"C:\git\lab_2_strings\Inlet.txt");
-            StreamWriter outfile = new StreamWriter(@"C:\git\lab_2_strings\Outlet.txt");
 
             int minInd = 0;
             string intext = infile.ReadToEnd();
@@ -22,10 +21,10 @@ namespace lab_2_strings
                     min = dd[i].Length; minInd = i; 
                 }
 
-            outfile.Write("самое кроткое слово: {0} ", dd[minInd]);
-            outfile.Write("индекс самого кроткого слова: {0} ", minInd);
-            
-            Console.ReadLine();
+            StreamWriter outfile = new StreamWriter(@"C:\git\lab_2_strings\Outlet.txt");
+            outfile.WriteLine("Самое кроткое слово: {0} ", dd[minInd]);
+            outfile.WriteLine("Индекс самого кроткого слова: {0} ", minInd);
+            outfile.Close();
             }
     }
 }
