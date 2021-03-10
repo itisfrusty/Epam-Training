@@ -1,0 +1,16 @@
+C:\git\lab_2_matrix\bin\Debug\net5.0\lab_2_matrix.exe
+C:\git\lab_2_matrix\bin\Debug\net5.0\lab_2_matrix.deps.json
+C:\git\lab_2_matrix\bin\Debug\net5.0\lab_2_matrix.runtimeconfig.json
+C:\git\lab_2_matrix\bin\Debug\net5.0\lab_2_matrix.runtimeconfig.dev.json
+C:\git\lab_2_matrix\bin\Debug\net5.0\lab_2_matrix.dll
+C:\git\lab_2_matrix\bin\Debug\net5.0\ref\lab_2_matrix.dll
+C:\git\lab_2_matrix\bin\Debug\net5.0\lab_2_matrix.pdb
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.csprojAssemblyReference.cache
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.AssemblyInfoInputs.cache
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.AssemblyInfo.cs
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.csproj.CoreCompileInputs.cache
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.dll
+C:\git\lab_2_matrix\obj\Debug\net5.0\ref\lab_2_matrix.dll
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.pdb
+C:\git\lab_2_matrix\obj\Debug\net5.0\lab_2_matrix.genruntimeconfig.cache
