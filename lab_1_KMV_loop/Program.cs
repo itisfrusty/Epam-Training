@@ -21,20 +21,19 @@ namespace lab_1_KMV_loop
 
             Console.WriteLine("Введите точность eps: ");
             eps = Convert.ToDouble(Console.ReadLine());
+
             double term = 1, result = 0;
             int n = 0;
 
-            do
+            while (Math.Pow(Math.Log(3), n) / Fact(n) * term > eps)
             {
-                result += (Math.Pow(Math.Log(3), n++)/Fact(n++) * term);
+                result += (Math.Pow(Math.Log(3), n)/Fact(n) * term);
                 term *= x;
+                n++;
 
-            } while (Math.Abs(Math.Pow(Math.Log(3), n + 1) / Fact(n + 1) * term) - (Math.Pow(Math.Log(3), n) / Fact(n) * term) > eps);
-
-            Console.WriteLine("Значение суммы: ");
-            Console.WriteLine(result);
+            } 
+            Console.WriteLine("Значение суммы: {0}",result);
             Console.ReadKey();
-
         }
     }
 }
