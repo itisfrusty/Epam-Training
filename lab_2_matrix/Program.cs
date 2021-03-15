@@ -8,8 +8,8 @@ namespace lab_2_matrix
 {
     class Program
     {
-        static StreamReader inputfile = new StreamReader(@"C:\git\lab_2_matrix\Inlet.txt");
-        static StreamWriter outputFile = new StreamWriter(@"C:\git\lab_2_matrix\Outlet.txt");
+        static StreamReader inputfile = new StreamReader("Inlet.txt");
+        static StreamWriter outputFile = new StreamWriter("Outlet.txt");
         static void Main(string[] args)
         {
             string[] N_M_ = inputfile.ReadLine().Trim().Split(' ');

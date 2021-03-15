@@ -10,7 +10,7 @@ namespace lab_2_vectors
             {
                 Console.WriteLine("Введите делитель делитель: ");
                 int c = int.Parse(Console.ReadLine());
-                File.WriteAllText(@"C:\git\lab_2_vectors\Outlet.txt", String.Join(Environment.NewLine, File.ReadAllText(@"C:\git\lab_2_vectors\Inlet.txt")
+                File.WriteAllText("Outlet.txt", String.Join(Environment.NewLine, File.ReadAllText("Inlet.txt")
                     .Split(' ').ToArray().Where((v, i) => c % (i + 1) == 0).ToArray()));
             }
         
