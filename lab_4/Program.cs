@@ -83,7 +83,7 @@ namespace lab_4
         /// Метод, возращающий векторное произведение двух векторов.
         public static int VectorProduct(Vector V1, Vector V2)
         {
-            return ((V1.Y * V2.Z - V1.Z * V2.Y) + (V1.Z * V2.X - V1.X * V2.Z) + (V1.X * V2.Y - V1.Y * V2.X));
+            return ((V1.Y * V2.Z - V1.Z * V2.Y) - (V1.X * V2.Z - V1.Z * V2.X) + (V1.X * V2.Y - V1.Y * V2.X));
         }
 
         /// Метод, возвращающий модуль вектора.
@@ -128,8 +128,8 @@ namespace lab_4
             Vector Substraction = v0 - v1;
             Vector ScalarProduct1 = v0 * scale;
             Vector ScalarProduct2 = v1 * scale;
-            Vector ScalarProductVectors = v0 * v1;
-            int VectorProduct = Vector.VectorProduct(v0, v1);
+            Vector VectorProduct = v0 * v1;
+            int ScalarProductVectors = Vector.VectorProduct(v0, v1);
             double ModulVector1 = Vector.ModulVector(v0);
             double ModulVector2 = Vector.ModulVector(v1);
             Console.WriteLine("Первый исходный вектор: " + v0 +
