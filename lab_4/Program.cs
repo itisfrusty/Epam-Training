@@ -129,7 +129,7 @@ namespace lab_4
             Vector ScalarProduct1 = v0 * scale;
             Vector ScalarProduct2 = v1 * scale;
             Vector VectorProduct = v0 * v1;
-            int ScalarProductVectors = Vector.VectorProduct(v0, v1);
+            int ScalarProductVectors = Vector.ScalarProduct(v0, v1);
             double ModulVector1 = Vector.ModulVector(v0);
             double ModulVector2 = Vector.ModulVector(v1);
             Console.WriteLine("Первый исходный вектор: " + v0 +
