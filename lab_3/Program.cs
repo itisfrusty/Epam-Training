@@ -7,16 +7,6 @@ namespace lab_3
         public abstract string Area();
         public abstract string Perimeter();
         public abstract string ShapeName();
-
-        public void ShowInfo()
-        {
-            Console.WriteLine(
-            $"Название фигуры: {ShapeName()}\n" +
-            $"Площадь: {Area()}\n" +
-            $"Периметр: {Perimeter()}"
-            );
-            Console.WriteLine();
-        }
     }
 
     class Rectangle : Figure
@@ -53,7 +43,12 @@ namespace lab_3
         static void Main()
         {
             Figure figure1 = new Rectangle(2,4);
-            figure1.ShowInfo();
+            Console.WriteLine(
+            $"Название фигуры: {figure1.ShapeName()}\n" +
+            $"Площадь: {figure1.Area()}\n" +
+            $"Периметр: {figure1.Perimeter()}"
+            );
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
