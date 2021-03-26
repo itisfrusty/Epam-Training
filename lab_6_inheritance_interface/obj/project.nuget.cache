@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urFquAHTRUhwX2ifck4BCE8dOmvxIURg9mdbNdsv4UlPrKBReflWmQ+0Tj696kEhct38dGOuDjynglgQ5S+iGA==",
+  "dgSpecHash": "dV9/aV0qSkYqluNysQMxo1MAUTI5rwrxWl9ZI7IBQgm0yP9s/Na2m+HjmIAQPqhH7LKOqwzCN+2mWh5OUm9dkw==",
   "success": true,
-  "projectFilePath": "C:\\git\\lab_6\\lab_6.csproj",
+  "projectFilePath": "C:\\git\\lab_6_inheritance_interface\\lab_6.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

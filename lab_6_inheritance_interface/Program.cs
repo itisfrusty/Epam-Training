@@ -6,8 +6,6 @@ namespace lab_6
     {
         private static void Main()
         {
-            Console.Title = "===== Maksym Havryliuk - EPAM University - .Net program =====";
-
             ProgramConverter[] programConverter = new ProgramConverter[3];
             programConverter[0] = new ProgramConverter();
             programConverter[1] = new ProgramHelper();
