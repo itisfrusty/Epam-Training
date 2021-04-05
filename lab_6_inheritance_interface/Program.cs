@@ -6,6 +6,10 @@ namespace lab_6
     {
         private static void Main()
         {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 544dc1af8355e968aa42ee03919f6db25804314b
             ProgramConverter[] programConverter = new ProgramConverter[3];
             programConverter[0] = new ProgramConverter();
             programConverter[1] = new ProgramHelper();
