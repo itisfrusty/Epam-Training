@@ -1,0 +1,16 @@
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\lab_7_delegates_third.exe
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\lab_7_delegates_third.deps.json
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\lab_7_delegates_third.runtimeconfig.json
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\lab_7_delegates_third.runtimeconfig.dev.json
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\lab_7_delegates_third.dll
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\ref\lab_7_delegates_third.dll
+C:\git\lab_7_delegates_third\bin\Debug\net5.0\lab_7_delegates_third.pdb
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.csprojAssemblyReference.cache
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.AssemblyInfoInputs.cache
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.AssemblyInfo.cs
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.csproj.CoreCompileInputs.cache
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.dll
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\ref\lab_7_delegates_third.dll
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.pdb
+C:\git\lab_7_delegates_third\obj\Debug\net5.0\lab_7_delegates_third.genruntimeconfig.cache

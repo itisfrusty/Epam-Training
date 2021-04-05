@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\lab_7_delegates_first\\lab_7_delegates_first.csproj",
-      "projectName": "lab_7_delegates_first",
-      "projectPath": "C:\\git\\lab_7_delegates_first\\lab_7_delegates_first.csproj",
+      "projectUniqueName": "C:\\git\\lab_7_delegates_third\\lab_7_delegates_third.csproj",
+      "projectName": "lab_7_delegates_third",
+      "projectPath": "C:\\git\\lab_7_delegates_third\\lab_7_delegates_third.csproj",
       "packagesPath": "C:\\Users\\с\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\lab_7_delegates_first\\obj\\",
+      "outputPath": "C:\\git\\lab_7_delegates_third\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+zd76QGu8xUgChSibxCFpPDimNgZztBDmRZFib3i5hWCHAINx/ao+drEzPWsFnq5+u29EKpEQOz+W1CWkqfpaw==",
+  "dgSpecHash": "hlFusi6K9T9dxeFj/8t65WrkZ3MYfLBLDi64yRm+P2r9j094tmHSp7QNZcDb/mDD+uXnIsCIuUmaFECDZh0Hug==",
   "success": true,
-  "projectFilePath": "C:\\git\\lab_7\\lab_7.csproj",
+  "projectFilePath": "C:\\git\\lab_7_delegates_first\\lab_7_delegates_first.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
