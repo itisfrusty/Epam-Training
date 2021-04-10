@@ -2,7 +2,7 @@
 using System.Text;
 using System.IO;
 
-namespace net_core2
+namespace lab_4_class_polunomials_overdrive
 {
     class Polinom
     {
