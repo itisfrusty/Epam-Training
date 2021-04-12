@@ -1,59 +1,125 @@
 ﻿using System;
 
-namespace lab_6
+namespace lab_6_inheritance_interfaces
 {
-    internal class Program
+    interface IConvertible
     {
-        private static void Main()
+        string ConvertToSharp(string str);
+        string ConvertToVB(string str);
+    }
+
+    interface ICodeChecker
+    {
+        bool CheckCodeSyntax(string str1, string str2);
+    }
+
+    class ProgramHelper : ProgramConverter, ICodeChecker
+    {
+        public new string ConvertToSharp(string str)
         {
+            return "Конвертирование в C# выполнено успешно!";
+        }
 
-            ProgramConverter[] programConverter = new ProgramConverter[3];
-            programConverter[0] = new ProgramConverter();
-            programConverter[1] = new ProgramHelper();
-            programConverter[2] = new ProgramHelper();
+        public new string ConvertToVB(string str)
+        {
+            return "Конвертирование в VB выполнено успешно!";
+        }
 
-            foreach (ProgramConverter element in programConverter)
+        public bool CheckCodeSyntax(string str1, string str2)
+        {
+            if (str2 == "C#")
             {
-                // The operation ID for mapping to the called classes.
-                Console.WriteLine("\nId {0}:", TransactionID.idOperation++);
-
-                // We lead a ProgramConverter object to the ProgramHelper type.
-                ProgramHelper programHelper = element as ProgramHelper;
-
-                // Converting VB code to C#.
-                string vbCode = element.ConvertToCSharp("VB CODE");
-                Console.WriteLine(vbCode);
-
-                // Checking the availability of the CodeCheckSyntax method of the ProgramHelper class.
-                if (programHelper != null) // if casting is possible...
+                if (str1[str1.Length - 1] == ';')
                 {
-                    programHelper.CodeCheckSyntax(vbCode, "C#");
+                    return true;
                 }
                 else
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Ошибка проверки синтаксиса C#. Модуль CodeCheckSyntax недоступен!");
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                }
-
-                // Converting C# code to VB.
-                string csharpCode = element.ConvertToVB("C# CODE");
-                Console.WriteLine(csharpCode);
-
-                // Checking the availability of the CodeCheckSyntax method of the ProgramHelper class.
-                if (programHelper != null) // if casting is possible...
-                {
-                    programHelper.CodeCheckSyntax(csharpCode, "VB");
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Ошибка проверки синтаксиса VB. Модуль CodeCheckSyntax недоступен!");
-                    Console.ForegroundColor = ConsoleColor.Gray;
+                    return false;
                 }
             }
+            else if (str2 == "VB")
+            {
+                if (str1[str1.Length - 1] != ';')
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return false;
+        }
+    }
 
-            Console.ReadKey();
+    class ProgramConverter : IConvertible
+    {
+        public string ConvertToSharp(string str)
+        {
+            return "Конвертирование в C# выполнено успешно!";
+        }
+
+        public string ConvertToVB(string str)
+        {
+            return "Конвертирование в VB выполнено успешно!";
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string SyntaxString, LanguageString;
+
+            ProgramConverter[] Elements =
+            {
+                new ProgramHelper(),
+                new ProgramConverter(),
+                new ProgramConverter(),
+                new ProgramHelper(),
+                new ProgramConverter(),
+                new ProgramHelper(),
+                new ProgramHelper()
+            };
+
+            Console.Write("Введите кодовую строку: ");
+            SyntaxString = Console.ReadLine();
+            Console.Write("Введите язык программирования: ");
+            LanguageString = Console.ReadLine();
+            ProgramConverter Object;
+
+            for (int i = 0; i < Elements.Length; i++)
+            {
+                Object = Elements[i] as ProgramHelper;
+                if (Object != null)
+                {
+                    Console.WriteLine($"{i + 1}.{Elements[i].GetType()} реализует интерфейс ICodeChecker:");
+                    ProgramHelper Helper = new ProgramHelper();
+                    if (Helper.CheckCodeSyntax(SyntaxString, LanguageString))
+                    {
+                        if (LanguageString == "C#")
+                        {
+                            Console.WriteLine(Elements[i].ConvertToVB(SyntaxString));
+                        }
+                        else if (LanguageString == "VB")
+                        {
+                            Console.WriteLine(Elements[i].ConvertToSharp(SyntaxString));
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Неправильный язык программирования!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{i + 1}.{Elements[i].GetType()} не реализует интерфейс ICodeChecker => " +
+                        $"выполняется два метода преобразования:");
+                    Console.WriteLine(Elements[i].ConvertToSharp(SyntaxString));
+                    Console.WriteLine(Elements[i].ConvertToVB(SyntaxString));
+                }
+            }
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6zrdyHvQOTJ8KesS0luAuVMqNK1QbL7W2/tttGW/q1Zavh+qYMBv+K/vud6MaPD4/0e1m2LQrfO4RPsvguwpcA==",
+  "dgSpecHash": "PophX5gozsuPOoXlw1YpXSGwis76Ww1IL001y85SyD86CK7zUPDG/qq0cRZPhQi/FNRyqMYn1RQ4SSN3blB+aw==",
   "success": true,
-  "projectFilePath": "C:\\git\\lab_7_delegates_first_(ping_pong)\\lab_7.csproj",
+  "projectFilePath": "C:\\git\\epamTraining\\lab_7_delegates_first_(ping_pong)\\lab_7.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
