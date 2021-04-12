@@ -2,7 +2,13 @@
 using System.Text;
 using System.IO;
 
-namespace lab_4_class_polunomials_overdrive
+/*Дополнительное задание «Многочлен».
+•	Разработать класс «многочлен» для работы с многочленами от одной переменной.
+•	Перегрузить для класса операции, допустимые для работы с многочленами.
+•	В качестве UI-интерфейса использовать консольное приложение с интерфейсом командной строки, WinForms или WPF-приложение.
+*/
+
+namespace lab_4_class_polynomials_overdrive
 {
     class Polinom
     {
@@ -261,7 +267,7 @@ namespace lab_4_class_polunomials_overdrive
         {
             string str1;
             string str2;
-            using (var file = new StreamReader(Path.GetFullPath("Inlet.in")))
+            using (var file = new StreamReader(Path.GetFullPath("Inlet.txt")))
             {
                 str1 = file.ReadLine();
                 str2 = file.ReadLine();

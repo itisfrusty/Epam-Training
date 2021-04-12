@@ -6,10 +6,10 @@ namespace lab_7_delegates_second__train_
 
     class Train
     {
+        public string ArrivalTime { get; set; }
         public string Name { get; set; }
         public string Destination { get; set; }
         public string Departure { get; set; }
-        public string ArrivalTime { get; set; }
 
         public Train(string Name, string Destination, string Departure, string ArrivalTime)
         {
@@ -34,10 +34,10 @@ namespace lab_7_delegates_second__train_
 
         public void Generate(Train train)
         {
-            TrainEventGenerator += train.GetTrainName;
-            TrainEventGenerator += train.GetTrainDestination;
             TrainEventGenerator += train.GetTrainDeparture;
             TrainEventGenerator += train.GetTrainArrivalTime;
+            TrainEventGenerator += train.GetTrainName;
+            TrainEventGenerator += train.GetTrainDestination;
             TrainEventGenerator();
         }
     }

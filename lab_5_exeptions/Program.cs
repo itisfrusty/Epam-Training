@@ -1,222 +1,240 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
-namespace ConsoleApplication1
+namespace lab_5_exeptions 
 {
-    class Matrix
+    class WrongMatrixException : Exception
     {
-        // Скрытые поля
-        private int n;
-        private int[,] mass;
-
-        // Создаем конструкторы матрицы
-        public Matrix() { }
-        public int N
+        public WrongMatrixException(Matrix mat1, Matrix mat2)
         {
-            get { return n; }
-            set { if (value > 0) n = value; }
+            Length1 = mat1.Length;
+            Width1 = mat1.Width;
+            Length2 = mat2.Length;
+            Width2 = mat2.Width;
+            PrintData();
         }
 
-        // Задаем аксессоры для работы с полями вне класса Matrix
-        public Matrix(int n)
-        {
-            this.n = n;
-            mass = new int[this.n, this.n];
-        }
-        public int this[int i, int j]
+        private int Length1;
+        private int Width1;
+        private int Length2;
+        private int Width2;
+
+        private string data
         {
             get
             {
-                return mass[i, j];
-            }
-            set
-            {
-                mass[i, j] = value;
+                return $"Первая матрица:\nКоличество строк:" +
+                    $" {Length1}\nКоличество столбцов: {Width1}\nВторая матрица:\n" +
+                    $"Количество строк:" +
+                    $" {Length2}\nКоличество столбцов: {Width2}";
             }
         }
 
-        // Ввод матрицы с клавиатуры
-        public void WriteMat()
+        private void PrintData()
         {
-            for (int i = 0; i < n; i++)
+            Console.WriteLine(data);
+        }
+    }
+
+    class Matrix
+    {
+        private int[,] Matrix_;
+        private int M;
+        private int N;
+
+        public int Length { get; set; }
+        public int Width { get; set; }
+
+        public Matrix(int[,] Matrix, int M, int N)
+        {
+            Matrix_ = Matrix;
+            this.M = M;
+            this.N = N;
+            Length = M;
+            Width = N;
+        }
+
+        public static Matrix Summ(Matrix M1, Matrix M2)
+        {
+            Matrix ResultMatrix, BuffMatrix;
+            int[,] ResMatrix = new int[M1.M, M1.N];
+            if (M1.M < M2.M)
             {
-                for (int j = 0; j < n; j++)
+                BuffMatrix = M1;
+                M1 = M2;
+                M2 = BuffMatrix;
+            }
+            for (int i = 0; i < M1.M; i++)
+            {
+                for (int j = 0; j < M2.N; j++)
                 {
-                    Console.WriteLine("Введите элемент матрицы {0}:{1}", i + 1, j + 1);
-                    mass[i, j] = Convert.ToInt32(Console.ReadLine());
+                    try
+                    {
+                        ResMatrix[i, j] = M1.Matrix_[i, j] + M2.Matrix_[i, j];
+                    }
+                    catch (IndexOutOfRangeException)
+                    {
+                        Console.WriteLine("Нельзя складывать матрицы разной размернсти");
+                        return M1;
+                    }
                 }
             }
+            ResultMatrix = new Matrix(ResMatrix, M1.M, M1.N);
+            return ResultMatrix;
         }
 
-        // Вывод матрицы с клавиатуры
-        public void ReadMat()
+        public static Matrix Diff(Matrix M1, Matrix M2)
         {
-            for (int i = 0; i < n; i++)
+            Matrix ResultMatrix, BuffMatrix;
+            int[,] ResMatrix = new int[M1.M, M1.N];
+            if (M1.M < M2.M)
             {
-                for (int j = 0; j < n; j++)
+                BuffMatrix = M1;
+                M1 = M2;
+                M2 = BuffMatrix;
+            }
+            for (int i = 0; i < M1.M; i++)
+            {
+                for (int j = 0; j < M2.N; j++)
                 {
-                    Console.Write(mass[i, j] + "\t");
+                    try
+                    {
+                        ResMatrix[i, j] = M1.Matrix_[i, j] - M2.Matrix_[i, j];
+                    }
+                    catch (IndexOutOfRangeException)
+                    {
+                        Console.WriteLine("Нельзя вычитать матрицы разной размернсти");
+                        return M1;
+                    }
+                }
+            }
+            ResultMatrix = new Matrix(ResMatrix, M1.M, M1.N);
+            return ResultMatrix;
+        }
+
+        public static Matrix Multipication(Matrix M1, Matrix M2)
+        {
+            if (M1.Length != M2.Width)
+            {
+                Console.WriteLine("Ошибка!");
+                throw new WrongMatrixException(M1, M2);
+            }
+            Matrix ResultMatrix;
+            int[,] ResMatrix = new int[M1.M, M2.N];
+            int Summ = 0, Index = 0;
+            for (int i = 0; i < M1.M; i++)
+            {
+                for (Index = 0; Index < M2.N; Index++)
+                {
+                    for (int j = 0; j < M2.M; j++)
+                    {
+                        try
+                        {
+                            Summ += M1.Matrix_[i, j] * M2.Matrix_[j, Index];
+                        }
+                        catch (IndexOutOfRangeException)
+                        {
+                            Console.WriteLine("Колличество строк первой матрицы должно быть" +
+                                " равно кулличеству столбцов второй матрицы");
+                            return M1;
+                        }
+                    }
+                    ResMatrix[i, Index] = Summ;
+                    Summ = 0;
+                }
+            }
+            ResultMatrix = new Matrix(ResMatrix, M1.M, M2.N);
+            return ResultMatrix;
+        }
+
+        public static Matrix GetEmpty(int Length, int Width)
+        {
+            int[,] Matrix = new int[Length, Width];
+            return new Matrix(Matrix, Length, Width);
+        }
+
+        public void PrintMatrix()
+        {
+            for (int i = 0; i < this.M; i++)
+            {
+                for (int j = 0; j < this.N; j++)
+                {
+                    Console.Write(this.Matrix_[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
         }
+    }
 
-
-        // Проверка матрицы А на единичность
-        public void oneMat(Matrix a)
+    class Program
+    {
+        static void Main(string[] args)
         {
-            int count = 0;
-            for (int i = 0; i < n; i++)
+            int[,] Matrix_1, Matrix_2;
+            string[] FileString;
+            int M1, N1 = 0, M2, N2;
+            using (var file = new StreamReader(Path.GetFullPath("Inlet.txt")))
             {
-                for (int j = 0; j < n; j++)
+                int i;
+                string[] Aux;
+                string CheckString = "";
+                for (i = 0; ; i++)
                 {
-                    if (a[i, j] == 1 && i == j)
+                    CheckString = file.ReadLine();
+                    if (CheckString == "------")
                     {
-                        count++;
+                        break;
+                    }
+                    N1 = CheckString.Split(' ').Length;
+                }
+                M1 = i;
+                for (i = 0; !file.EndOfStream; i++)
+                {
+                    CheckString = file.ReadLine();
+                }
+                M2 = i;
+                Aux = CheckString.Split(' ');
+                N2 = Aux.Length;
+                file.Close();
+            }
+            using (var file = new StreamReader(Path.GetFullPath("Inlet.txt")))
+            {
+                Matrix_1 = new int[M1, N1];
+                int i, j;
+                for (i = 0; i < M1; i++)
+                {
+                    FileString = file.ReadLine().Split(' ');
+                    for (j = 0; j < N1; j++)
+                    {
+                        Matrix_1[i, j] = int.Parse(FileString[j]);
+                    }
+                }
+                file.ReadLine();
+                Matrix_2 = new int[M2, N2];
+                for (i = 0; i < M2; i++)
+                {
+                    FileString = file.ReadLine().Split(' ');
+                    for (j = 0; j < N2; j++)
+                    {
+                        Matrix_2[i, j] = int.Parse(FileString[j]);
                     }
                 }
 
             }
-            if (count == a.N)
-            {
-                Console.WriteLine("Единичная");
-            }
-            else Console.WriteLine("Не единичная");
-        }
-
-
-        // Умножение матрицы А на число
-        public static Matrix umnch(Matrix a, int ch)
-        {
-            Matrix resMass = new Matrix(a.N);
-            for (int i = 0; i < a.N; i++)
-            {
-                for (int j = 0; j < a.N; j++)
-                {
-                    resMass[i, j] = a[i, j] * ch;
-                }
-            }
-            return resMass;
-        }
-
-        // Умножение матрицы А на матрицу Б
-        public static Matrix umn(Matrix a, Matrix b)
-        {
-            Matrix resMass = new Matrix(a.N);
-            for (int i = 0; i < a.N; i++)
-                for (int j = 0; j < b.N; j++)
-                    for (int k = 0; k < b.N; k++)
-                        resMass[i, j] += a[i, k] * b[k, j];
-
-            return resMass;
-        }
-
-        // Перегрузка оператора умножения
-        public static Matrix operator *(Matrix a, Matrix b)
-        {
-            return Matrix.umn(a, b);
-        }
-
-        public static Matrix operator *(Matrix a, int b)
-        {
-            return Matrix.umnch(a, b);
-        }
-
-
-        // Метод вычитания матрицы Б из матрицы А
-        public static Matrix razn(Matrix a, Matrix b)
-        {
-            Matrix resMass = new Matrix(a.N);
-            for (int i = 0; i < a.N; i++)
-            {
-                for (int j = 0; j < b.N; j++)
-                {
-                    resMass[i, j] = a[i, j] - b[i, j];
-                }
-            }
-            return resMass;
-        }
-
-        // Перегрузка оператора вычитания
-        public static Matrix operator -(Matrix a, Matrix b)
-        {
-            return Matrix.razn(a, b);
-        }
-        public static Matrix Sum(Matrix a, Matrix b)
-        {
-            Matrix resMass = new Matrix(a.N);
-            for (int i = 0; i < a.N; i++)
-            {
-                for (int j = 0; j < b.N; j++)
-                {
-                    resMass[i, j] = a[i, j] + b[i, j];
-                }
-            }
-            return resMass;
-        }
-        // Перегрузка сложения
-        public static Matrix operator +(Matrix a, Matrix b)
-        {
-            return Matrix.Sum(a, b);
-        }
-        // Деструктор Matrix
-        ~Matrix()
-        {
-            Console.WriteLine("Очистка");
-        }
-
-    }
-    class MainProgram
-    {
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Введите размерность матрицы: ");
-            int nn = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите целую константу: ");
-            int a = Convert.ToInt32(Console.ReadLine());
-
-            // Инициализация матрицы
-            Matrix mass1 = new Matrix(nn);
-            Matrix mass2 = new Matrix(nn);
-            Matrix mass3 = new Matrix(nn);
-            Matrix mass4 = new Matrix(nn);
-            Matrix mass5 = new Matrix(nn);
-            Matrix mass6 = new Matrix(nn);
-            Matrix mass7 = new Matrix(nn);
-            Matrix mass8 = new Matrix(nn);
-            Console.WriteLine("ввод Матрица А: ");
-            mass1.WriteMat();
-            Console.WriteLine("Ввод Матрица B: ");
-            mass2.WriteMat();
-
-            Console.WriteLine("Матрица А: ");
-            mass1.ReadMat();
+            Matrix Matrix1 = new Matrix(Matrix_1, M1, N1);
+            Matrix Matrix2 = new Matrix(Matrix_2, M2, N2);
+            Matrix MatrixSum, MatrixMultiplication, MatrixDifferent;
+            MatrixSum = Matrix.Summ(Matrix1, Matrix2);
+            MatrixDifferent = Matrix.Diff(Matrix1, Matrix2);
+            MatrixMultiplication = Matrix.Multipication(Matrix1, Matrix2);
+            Console.WriteLine("Сумма двух матриц: ");
+            MatrixSum.PrintMatrix();
             Console.WriteLine();
-            Console.WriteLine("Матрица В: ");
+            Console.WriteLine("Разность двух матриц: ");
+            MatrixDifferent.PrintMatrix();
             Console.WriteLine();
-            mass2.ReadMat();
-
-            Console.WriteLine("Сложение матриц А и Б: ");
-            mass4 = (mass1 + mass2);
-            mass4.ReadMat();
-
-            Console.WriteLine("Вычитание матриц А и Б: ");
-            mass6 = (mass1 - mass2);
-            mass6.ReadMat();
-
-            Console.WriteLine("Умножение матриц А и Б: ");
-            mass8 = (mass1 * mass2);
-            mass8.ReadMat();
-
-            Console.WriteLine("Умножение матрицы А на число a: ");
-            mass5 = (mass1 * a);
-            mass5.ReadMat();
-
-            Console.ReadKey();
+            Console.WriteLine("Произведение двух матриц: ");
+            MatrixMultiplication.PrintMatrix();
         }
     }
 }

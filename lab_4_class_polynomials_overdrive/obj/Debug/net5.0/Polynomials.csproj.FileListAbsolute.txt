@@ -1,0 +1,16 @@
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\Polynomials.exe
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\Polynomials.deps.json
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\Polynomials.runtimeconfig.json
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\Polynomials.runtimeconfig.dev.json
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\Polynomials.dll
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\ref\Polynomials.dll
+C:\git\lab_4_class_polynomials_overdrive\bin\Debug\net5.0\Polynomials.pdb
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.csprojAssemblyReference.cache
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.AssemblyInfoInputs.cache
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.AssemblyInfo.cs
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.csproj.CoreCompileInputs.cache
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.dll
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\ref\Polynomials.dll
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.pdb
+C:\git\lab_4_class_polynomials_overdrive\obj\Debug\net5.0\Polynomials.genruntimeconfig.cache

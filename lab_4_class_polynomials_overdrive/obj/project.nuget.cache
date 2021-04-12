@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e1sANauF3gJmy7ooQwSRmfyb93rjlZudOlZoqBfZ8MNskZ1ihmw+it+1Y7DiQClYGYbA7IfACpiCx00ZrTfERQ==",
+  "dgSpecHash": "twoGKQmJ4S5j/mdeGMEVnt3xgfWENoU1SGe2RQX9vBT9O3O39QHeuv+K7xoa3cV/dHSdApp/7xxUynsjnC/xcQ==",
   "success": true,
-  "projectFilePath": "C:\\git\\Polynomials\\Polynomials.csproj",
+  "projectFilePath": "C:\\git\\lab_4_class_polynomials_overdrive\\Polynomials.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
