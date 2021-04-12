@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dV9/aV0qSkYqluNysQMxo1MAUTI5rwrxWl9ZI7IBQgm0yP9s/Na2m+HjmIAQPqhH7LKOqwzCN+2mWh5OUm9dkw==",
+  "dgSpecHash": "Vz6XmxzZVDHSrD/reAnvB54yWfvjpzEEyEdV35B4EO0mfYmdhFSc0ZsyrMNVhXi+Uu3YVy/6KK/T/Py95q5L3w==",
   "success": true,
-  "projectFilePath": "C:\\git\\lab_6_inheritance_interface\\lab_6.csproj",
+  "projectFilePath": "C:\\git\\epamTraining\\lab_6_inheritance_interface\\lab_6.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
