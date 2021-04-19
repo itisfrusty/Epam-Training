@@ -1,22 +1,30 @@
 ﻿using System;
 
 namespace lab_7_delegates_first
-{
-    public class Program
     {
-        public static void Main(string[] args)
+        class Program
         {
-            Func<Action<char>, bool, double, double> lambda = (f, flag, x) =>
+            public static void action1(Func<int> func, char ch1, char ch2)
             {
-                f('a');
-                return (flag) ? (2 * x) : (x * x);
-            };
-            Action<char> TT = MyFunc;
-            Console.WriteLine(lambda(TT, true, 2));
-        }
-        static void MyFunc(char s)
-        {
-            Console.WriteLine(s + " b c d e");
+                Console.WriteLine("Первое выполнено успешно...");
+            }
+
+            public static void action2(Func<int> func, char ch1, char ch2)
+            {
+                Console.WriteLine("Второе выполнено успешно...");
+            }
+
+            public static int func()
+            {
+                return 1;
+            }
+
+            static void Main(string[] args)
+            {
+                Func<int> F = func;
+                Action<Func<int>, char, char> Delegate = action1;
+                Delegate += action2;
+                Delegate(F, 'a', 'b');
+            }
         }
     }
-}

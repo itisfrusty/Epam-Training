@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hlFusi6K9T9dxeFj/8t65WrkZ3MYfLBLDi64yRm+P2r9j094tmHSp7QNZcDb/mDD+uXnIsCIuUmaFECDZh0Hug==",
+  "dgSpecHash": "gA6cIv/waWVGi98Hls5Lhc6BwYZ6LfTeh/Yu+/nedYqI2FSCcgCfWmEfO/6SJvbnP0HKS0jnlFlrISSmWbO1fw==",
   "success": true,
-  "projectFilePath": "C:\\git\\lab_7_delegates_first\\lab_7_delegates_first.csproj",
+  "projectFilePath": "C:\\git\\epamTraining\\lab_7_delegates_first\\lab_7_delegates_first.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
