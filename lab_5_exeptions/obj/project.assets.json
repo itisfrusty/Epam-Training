@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\lab_5_exeptions\\lab_5.csproj",
+      "projectUniqueName": "C:\\git\\epamTraining\\lab_5_exeptions\\lab_5.csproj",
       "projectName": "lab_5",
-      "projectPath": "C:\\git\\lab_5_exeptions\\lab_5.csproj",
+      "projectPath": "C:\\git\\epamTraining\\lab_5_exeptions\\lab_5.csproj",
       "packagesPath": "C:\\Users\\с\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\lab_5_exeptions\\obj\\",
+      "outputPath": "C:\\git\\epamTraining\\lab_5_exeptions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

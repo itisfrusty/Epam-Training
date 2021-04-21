@@ -5,12 +5,12 @@ namespace lab_5_exeptions
 {
     class WrongMatrixException : Exception
     {
-        public WrongMatrixException(Matrix mat1, Matrix mat2)
+        public WrongMatrixException(Matrix M1, Matrix M2)
         {
-            Length1 = mat1.Length;
-            Width1 = mat1.Width;
-            Length2 = mat2.Length;
-            Width2 = mat2.Width;
+            Length1 = M1.Length;
+            Width1 = M1.Width;
+            Length2 = M2.Length;
+            Width2 = M2.Width;
             PrintData();
         }
 
