@@ -1,0 +1,16 @@
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.csprojAssemblyReference.cache
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.AssemblyInfoInputs.cache
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.AssemblyInfo.cs
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.csproj.CoreCompileInputs.cache
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\lab_8_collections.exe
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\lab_8_collections.deps.json
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\lab_8_collections.runtimeconfig.json
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\lab_8_collections.runtimeconfig.dev.json
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\lab_8_collections.dll
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\ref\lab_8_collections.dll
+C:\git\epamTraining\lab_8_collections\bin\Debug\net5.0\lab_8_collections.pdb
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.dll
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\ref\lab_8_collections.dll
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.pdb
+C:\git\epamTraining\lab_8_collections\obj\Debug\net5.0\lab_8_collections.genruntimeconfig.cache

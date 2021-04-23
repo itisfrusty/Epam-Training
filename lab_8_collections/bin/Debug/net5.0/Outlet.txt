@@ -1,0 +1,13 @@
+Ellipse 24: Diametres: 2, 2; Area: 3,141592653589793; SomeNumber: -22; Perimetre: 12,566370614359172
+Ellipse 28: Diametres: 1, 5; Area: 3,9269908169872414; SomeNumber: -54; Perimetre: 21,138642178632644
+Ellipse 20: Diametres: 1, 7; Area: 5,497787143782138; SomeNumber: 47; Perimetre: 28,995574287564274
+Ellipse 14: Diametres: 9, 1; Area: 7,0685834705770345; SomeNumber: -96; Perimetre: 36,90973355292326
+Ellipse 18: Diametres: 2, 6; Area: 9,42477796076938; SomeNumber: -66; Perimetre: 26,84955592153876
+Ellipse 22: Diametres: 7, 2; Area: 10,995574287564276; SomeNumber: 59; Perimetre: 30,658798733447597
+Ellipse 19: Diametres: 7, 2; Area: 10,995574287564276; SomeNumber: -61; Perimetre: 30,658798733447597
+Ellipse 23: Diametres: 9, 2; Area: 14,137166941154069; SomeNumber: 57; Perimetre: 38,38133373258774
+Ellipse 21: Diametres: 4, 5; Area: 15,707963267948966; SomeNumber: -11; Perimetre: 28,369712476353715
+Ellipse 28: Diametres: 3, 8; Area: 18,84955592153876; SomeNumber: 92; Perimetre: 36,50844497678365
+Ellipse 10: Diametres: 5, 5; Area: 19,634954084936208; SomeNumber: -17; Perimetre: 31,41592653589793
+Ellipse 17: Diametres: 4, 7; Area: 21,991148575128552; SomeNumber: 36; Perimetre: 35,259852472914254
+Ellipse 25: Diametres: 8, 4; Area: 25,132741228718345; SomeNumber: 45; Perimetre: 38,84365497162446
