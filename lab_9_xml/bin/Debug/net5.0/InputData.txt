@@ -1,0 +1,12 @@
+comment: string num1
+First_String_1
+comment: string num2
+Second_String_2
+comment: string num3
+Third_String_3
+comment: another string
+hello_i_am_glad_to_see_u
+comment: another string one more time 
+good_bye_my_dear
+comment: last string
+i_don't_know_what_i_can_write_here

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<root>
+  <firstLevel>
+    <one>
+      <A num1 ="1">1</A>
+      <B num1 ="2" num2 ="5">2</B>
+      <C num1 ="3">3</C>
+    </one>
+    <two>
+      <D>1</D>
+      <E num1 ="2" num2 ="5">2</E>
+      <F num1 ="3" num2 ="6">3</F>
+    </two>
+    <three>
+      <G>1</G>
+      <H num1 ="2" num2 ="5" num3 ="15">2</H>
+      <I num1 ="3" num2 ="6">3</I>
+    </three>
+  </firstLevel>
+</root>

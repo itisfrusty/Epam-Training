@@ -1,0 +1,16 @@
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\lab_9_xml.exe
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\lab_9_xml.deps.json
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\lab_9_xml.runtimeconfig.json
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\lab_9_xml.runtimeconfig.dev.json
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\lab_9_xml.dll
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\ref\lab_9_xml.dll
+C:\git\epamTraining\lab_9_xml\bin\Debug\net5.0\lab_9_xml.pdb
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.csprojAssemblyReference.cache
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.AssemblyInfoInputs.cache
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.AssemblyInfo.cs
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.csproj.CoreCompileInputs.cache
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.dll
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\ref\lab_9_xml.dll
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.pdb
+C:\git\epamTraining\lab_9_xml\obj\Debug\net5.0\lab_9_xml.genruntimeconfig.cache
